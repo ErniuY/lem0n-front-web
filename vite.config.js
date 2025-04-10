@@ -30,6 +30,15 @@ export default defineConfig({
       resolvers: [ElementPlusResolver()],
     }),
   ],
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `
+          @use "@/assets/style/variable.scss" as *;
+        `,
+      },
+    },
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),

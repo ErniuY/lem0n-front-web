@@ -7,6 +7,6 @@
 <script setup></script>
 <style scoped lang="scss">
 .app-container {
-  posisiton: relative;
+  position: relative;
 }
 </style>
