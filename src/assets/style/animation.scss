@@ -97,3 +97,36 @@
     transform: translate(-50%, -50%) rotate(-360deg);
   }
 }
+/* typewriter animation */
+
+.ani-typewriter {
+  overflow: hidden;
+  border-right: 1px solid currentColor;
+  white-space: nowrap;
+  letter-spacing: 2px; /* 字符间距 */
+  position: relative;
+  animation:
+    typing 5s steps(30, end) forwards,
+    blink-caret 0.75s step-end infinite;
+}
+
+/* 打字动画 */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    // width: 624px;
+  }
+}
+
+/* 光标闪烁动画 */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: currentColor;
+  }
+}

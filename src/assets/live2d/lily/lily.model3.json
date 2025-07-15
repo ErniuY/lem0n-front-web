@@ -1,0 +1,16 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "lily.moc3",
+    "Textures": ["lily.2048/texture_00.png", "lily.2048/texture_01.png"],
+    "Physics": "lily.physics3.json",
+    "DisplayInfo": "lily.cdi3.json"
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": []
+    }
+  ]
+}

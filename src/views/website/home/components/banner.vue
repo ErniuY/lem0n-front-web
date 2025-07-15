@@ -5,6 +5,9 @@
     </div>
     <!-- <div class="bottom-fade-mask"></div> -->
     <img src="@/assets/images/lily-home.png" alt="lily" class="home-left-character" />
+    <div class="home-title">
+      <div v-ani-typewriter="{ fontFamily: 'Splatoon2,sans-serif' }">Lem0n Debugging</div>
+    </div>
     <!-- 动态粒子容器 -->
     <DynamicParticles></DynamicParticles>
   </div>
@@ -22,6 +25,13 @@
     position: relative;
     width: 50%;
     height: auto;
+  }
+  .home-title {
+    position: absolute;
+    right: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 84px;
   }
 }
 .background-rain-flow {

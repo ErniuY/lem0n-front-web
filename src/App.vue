@@ -1,6 +1,7 @@
 <template>
   <ElConfigProvider :locale="zhCn">
     <router-view />
+    <L2dLily></L2dLily>
   </ElConfigProvider>
 </template>
 

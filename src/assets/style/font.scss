@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'splatoon';
+  src: url('../fonts/splatoon.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+.font-splatoon {
+  font-family: 'splatoon', sans-serif;
+}
+
+@font-face {
+  font-family: 'splatoon2';
+  src: url('../fonts/splatoon2.OTF') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+.font-splatoon2 {
+  font-family: 'splatoon2', sans-serif;
+}
